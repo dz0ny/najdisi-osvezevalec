@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Najdi.si osveževalec
-Description: Ob posodobitvi strani ali članka, pošlje zahtevo najdi.si za ponovno indeksiranje
+Description: Ob posodobitvi/vnosu strani ali članka pošlje zahtevo na najdi.si, za ponovno indeksiranje spremenjene vsebine
 Author: Janez Troha
-Version: 1.1
+Version: 1.2
 Author URI: http://github.com/dz0ny/Loggy
 
 (The MIT License)
@@ -27,7 +27,7 @@ class NajdiSI {
 	}
 	
 	/**
-	 * Nastavi posodobtev (cron), v primeru da ni to uvoz ali samo revizija
+	 * Nastavi posodobitev (cron), samo v primeru da ni to uvoz ali revizija
 	 *
 	 * @return void
 	 * @author Janez Troha
@@ -40,7 +40,7 @@ class NajdiSI {
 
 	}
 	/**
-	 * Pošlji zahtevek za indeksiranje na najdi.si
+	 * Pošlji zahtevek za indeksiranje na najdi.si in dodaj sledilno kodo
 	 *
 	 * @return void
 	 * @author Janez Troha
