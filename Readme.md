@@ -5,8 +5,8 @@ Ob posodobitvi/vnosu strani ali članka pošlje zahtevo na najdi.si, za ponovno 
 
 ## Opis
 
-	Ko spremenite vsebino na strani ali jo dodate, bo ta vtičnik poslal zahtevo za ponovno indeksiranje na najdi.si.
-	Poleg tega po dodal tudi ukazni niz za spremljanje prihodov (link tracking) v Google Analyitcs.
+Ko spremenite vsebino na strani ali jo dodate, bo ta vtičnik poslal zahtevo za ponovno indeksiranje na najdi.si.
+Poleg tega bo dodal tudi ukazni niz za spremljanje prihodov na stran (link tracking) v Google Analyitcs, ki so bili opravljeni zaradi tega vtičnika.
 
 
 ## License 
