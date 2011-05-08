@@ -49,6 +49,7 @@ class NajdiSI {
 	{
 		//Goolge analyitcs tracking preko Kampanje
 		$ga_tacking = "?utm_campaign=najdisi&utm_source=najdi-si-osvezevalec&utm_medium=povezava";
+                //glej http://www.najdi.si/publishers/indexing.html za več informacij o omejitvah (1000 zahtevkov na 15s)
 		$url = "http://www.najdi.si/indexingOnDemand.jsp?url=" . urlencode ( get_permalink($post_id).$ga_tacking );
 		$timeout = 10;
 		
