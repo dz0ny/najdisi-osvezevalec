@@ -1,6 +1,5 @@
 === Plugin Name ===
 Contributors: dz0ny
-Donate link: http://example.com/
 Tags: najdi, seo
 Requires at least: 3.0
 Tested up to: 3.1
